@@ -30,6 +30,9 @@
 /* ================= Variables for alignments =================*/
     --section-header-align:center;
 
+
+/* ===================Variable for tagline transform===========*/
+    --section-tagline-transform:uppercase;
 }
 
 html {
@@ -70,4 +73,8 @@ a {
 
 .section-tagline {
     background-color: var(--color-primary);
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
+
